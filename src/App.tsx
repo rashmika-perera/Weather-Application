@@ -47,7 +47,6 @@ function App() {
             Search
           </button>
         </div>
-      
         {weather && weather.main ? (
           <div className="text-center bg-white/20 p-6 rounded-xl shadow-inner">
             <h2 className="text-3xl font-bold">{weather.name}</h2>
