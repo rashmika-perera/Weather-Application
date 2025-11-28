@@ -48,7 +48,7 @@ export default tseslint.config({
     // other rules...
     // Enable its recommended typescript rules
     ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
+    ...reactDom.configs.recommended.rules
   },
 })
 ```
